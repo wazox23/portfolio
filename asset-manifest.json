@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.493d2324.css",
+    "main.js": "/portfolio/static/js/main.516b515b.js",
+    "static/media/festka1.png": "/portfolio/static/media/festka1.24354090eee6b9f56c63.png",
+    "static/media/festka4.png": "/portfolio/static/media/festka4.e6870f48dc4191033232.png",
+    "static/media/festka3.png": "/portfolio/static/media/festka3.576645127b482b8f539d.png",
+    "static/media/festka2.png": "/portfolio/static/media/festka2.c1a33b56be326f3f622b.png",
+    "static/media/festka5.png": "/portfolio/static/media/festka5.4bed34a59f5572be7816.png",
+    "static/media/weather2.png": "/portfolio/static/media/weather2.e9d7d339e162d9ddcbed.png",
+    "static/media/weather1.png": "/portfolio/static/media/weather1.d26af4721cdff850125f.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/express3.png": "/portfolio/static/media/express3.0744b25b18eb3e2de43a.png",
+    "static/media/crypto1.png": "/portfolio/static/media/crypto1.2cd1530e2cfc5561facf.png",
+    "static/media/crypto2.png": "/portfolio/static/media/crypto2.ebc834842b001321a165.png",
+    "static/media/crypto3.png": "/portfolio/static/media/crypto3.a3ab65af0383c892efae.png",
+    "static/media/express1.png": "/portfolio/static/media/express1.68fa747fb0c47fa49268.png",
+    "static/media/rock-paper-scissors.png": "/portfolio/static/media/rock-paper-scissors.faf11bf00f5c83cb1f33.png",
+    "static/media/express2.png": "/portfolio/static/media/express2.73211b7e56eba7cdc631.png",
+    "static/media/calculator.png": "/portfolio/static/media/calculator.13582a863f0f53c16dd2.png",
+    "static/media/fontawesome-webfont.eot": "/portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/emoji-pc.png": "/portfolio/static/media/emoji-pc.d7d087f1cc85a85f959f.png",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/pugjs.svg": "/portfolio/static/media/pugjs.b0c23d5d3894151af63c7ee0680ff78a.svg",
+    "static/media/react.svg": "/portfolio/static/media/react.6d4dd5dfc6163bdfcfe520bd6bef1a6a.svg",
+    "static/media/Sass.svg": "/portfolio/static/media/Sass.540ec25faf04e640b555c5773d3a6d9f.svg",
+    "static/media/Bootstrap_logo.svg": "/portfolio/static/media/Bootstrap_logo.3a162f65200426203695ee878e6b62fb.svg",
+    "static/media/Typescript.svg": "/portfolio/static/media/Typescript.9ad81d2e09b9cd2265cdb1e55d83a709.svg",
+    "static/media/express-js.svg": "/portfolio/static/media/express-js.b1710fe36cbebb418eb7608fd1e8cf70.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/javascript.svg": "/portfolio/static/media/javascript.acc4642f682cd93a4c20a8a02c0cfa21.svg",
+    "static/media/HTML5.svg": "/portfolio/static/media/HTML5.aff8a9cb398fc75e4f21dab1ba1e097e.svg",
+    "static/media/CSS.svg": "/portfolio/static/media/CSS.64fa1d1c4801d931c3717be71f6c020e.svg",
+    "main.493d2324.css.map": "/portfolio/static/css/main.493d2324.css.map",
+    "main.516b515b.js.map": "/portfolio/static/js/main.516b515b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.493d2324.css",
+    "static/js/main.516b515b.js"
+  ]
+}
