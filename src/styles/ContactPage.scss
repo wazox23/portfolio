@@ -1,0 +1,61 @@
+$surface-mixed-200: #503c70;
+
+.main-container {
+  text-align: center;
+}
+
+.contact-box {
+  margin-left: 50px;
+  padding: 20px;
+  background-color: $surface-mixed-200;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-self: center;
+  align-items: center;
+
+  @media (max-width: 992px) {
+    flex-direction: column;
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .contact-item {
+    display: flex;
+    padding: 2rem;
+    margin-bottom: 10px;
+    color: #fff;
+    width: auto;
+    height: auto;
+    min-width: 200px;
+    min-height: 60px;
+
+    @media (max-width: 992px) {
+      padding: 1rem;
+      min-width: auto;
+      min-height: auto;
+    }
+
+    svg {
+      margin-right: 10px;
+      font-size: 1.5em;
+      color: #fff;
+      align-self: center;
+    }
+
+    a,
+    p {
+      align-self: center;
+      margin: 0;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

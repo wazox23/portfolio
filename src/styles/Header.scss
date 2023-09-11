@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+$surface-mixed-200: #503c70;
+$surface-mixed-100: #3c275f;
+$primary-500: #a688fa;
+
+.navbar {
+  background-color: $surface-mixed-200;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: "Fjalla One", sans-serif;
+  padding: 1rem;
+
+  .active {
+    color: $primary-500 !important;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    font-size: 20px;
+  }
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    font-family: "Gluten", cursive;
+    width: auto;
+    padding: 0 20px;
+    border-bottom: 2px solid $primary-500;
+
+    @media (max-width: 767px) {
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 10px 0;
+      display: none;
+    }
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  li a {
+    color: #ffff;
+  }
+}

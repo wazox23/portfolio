@@ -1,0 +1,24 @@
+$surface-mixed-100: #3c275f;
+$primary-500: #a688fa;
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+
+.main-container {
+  background-color: $surface-mixed-100;
+  min-width: 100vw;
+  width: auto;
+  height: auto;
+  min-height: 100vh;
+
+  .col-lg-4 {
+    padding: 1rem;
+    .skill-title {
+      font-family: "Fjalla One", sans-serif;
+      padding-bottom: 10px;
+      color: $primary-500;
+    }
+
+    .img {
+      width: 20%;
+    }
+  }
+}

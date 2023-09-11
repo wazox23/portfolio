@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap");
+$surface-mixed-200: #503c70;
+$surface-mixed-100: #3c275f;
+
+.cursor {
+  animation: blink 1s infinite;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.text-animation {
+  background-color: $surface-mixed-200;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+  font-family: "Gluten", cursive;
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: $surface-mixed-100;
+    border: none;
+    color: #ffff;
+    border-radius: 20px;
+    padding: 1rem;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+
+    &:hover {
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.2);
+      transform: translateY(-2px);
+    }
+
+    &:active {
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
+      transform: translateY(0);
+    }
+  }
+}

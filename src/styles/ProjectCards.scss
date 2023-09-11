@@ -1,0 +1,28 @@
+$surface-mixed-200: #2f2b3a;
+$primary-500: #a688fa;
+
+.container.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  width: 100%;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: $surface-mixed-200;
+  color: #fff;
+
+  .card-body {
+    transition: background-color 0.3s ease;
+
+    a {
+      background-color: $primary-500;
+      border: none;
+    }
+  }
+}
